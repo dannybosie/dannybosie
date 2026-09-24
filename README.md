@@ -36,14 +36,26 @@ Profit and loss software for TikTok Shop sellers, on the official seller API.
 **[ordinex.cc](https://ordinex.cc)**<br>
 Bilingual EN/VI site, run by an automated content pipeline and free seller tools.
 
+**[inbox-ledger](https://github.com/dannybosie/inbox-ledger)**<br>
+A household ledger that fills itself from bank alert emails. Cloudflare, $0 a month.
+
 </td>
 <td>
 
+**[breakeven-roas](https://dannybosie.github.io/breakeven-roas/)**<br>
+Break-even ROAS and max CPA for a TikTok Shop order.
+
+**[utm-governor](https://dannybosie.github.io/utm-governor/)**<br>
+Predicts the GA4 channel of every UTM link before launch.
+
+**[slop-lint](https://dannybosie.github.io/slop-lint/)**<br>
+Fails the build on AI tells, in English and Vietnamese.
+
+**[vn-peak-trading-calendar](https://dannybosie.github.io/vn-peak-trading-calendar/)**<br>
+Vietnam sale days and holidays as calendar feeds.
+
 **[TikTok Shop VN fee data](https://github.com/dannybosie/tiktok-shop-vn-commission-rates)**<br>
 1,808 categories diffed. Surfaced 403 fee cuts that went unreported.
-
-**[Fee lookup tool](https://ordinex.cc/en/tools/tiktok-shop-fees)**<br>
-The same data as a live search for sellers.
 
 </td>
 </tr>
@@ -61,9 +73,17 @@ A bootstrapped B2B SaaS for cross-border sellers in Southeast Asia. I run the go
 
 ### Open source and open data
 
-| Repo | What it is |
-|---|---|
-| [tiktok-shop-vn-commission-rates](https://github.com/dannybosie/tiktok-shop-vn-commission-rates) | **Marketplace Fee Intelligence.** TikTok Shop Vietnam commission schedules, effective-dated and diffed category by category. CC BY 4.0. |
+Each tool below ships with tests, CI and a README that slop-lint checks on every push.
+
+| Repo | What it is | Try it |
+|---|---|---|
+| [breakeven-roas](https://github.com/dannybosie/breakeven-roas) | **Unit Economics Intelligence.** Break-even ROAS, max CPA and CM1 to CM3 for a TikTok Shop Vietnam order, with commission by category. English and Vietnamese. | [Calculator](https://dannybosie.github.io/breakeven-roas/) |
+| [utm-governor](https://github.com/dannybosie/utm-governor) | **Attribution Hygiene Linter.** Predicts the GA4 channel of every UTM link and catches Unassigned, casing drift and internal UTMs. CLI and GitHub Action. | [Builder](https://dannybosie.github.io/utm-governor/) |
+| [slop-lint](https://github.com/dannybosie/slop-lint) | **Brand Voice Governance Engine.** Flags AI tells, buzzwords and em dashes in English and Vietnamese copy, with a Jargon Density Score. CLI and GitHub Action. | [Playground](https://dannybosie.github.io/slop-lint/) |
+| [vn-peak-trading-calendar](https://github.com/dannybosie/vn-peak-trading-calendar) | **Campaign Seasonality Intelligence.** Vietnam sale days, holidays and gifting dates as subscribable feeds with prep reminders. Lunar dates computed and tested. | [Subscribe](https://dannybosie.github.io/vn-peak-trading-calendar/) |
+| [inbox-ledger](https://github.com/dannybosie/inbox-ledger) | **Zero-cost Finance Ops on the edge.** A household ledger that fills itself from bank alert emails. Cloudflare Workers, D1 and Email Routing. | [Template](https://github.com/dannybosie/inbox-ledger#set-it-up) |
+| [tiktok-shop-vn-commission-rates](https://github.com/dannybosie/tiktok-shop-vn-commission-rates) | **Marketplace Fee Intelligence.** TikTok Shop Vietnam commission schedules, effective-dated and diffed category by category. CC BY 4.0. | [Fee lookup](https://ordinex.cc/en/tools/tiktok-shop-fees) |
+
 ### How I work
 
 AI-native. I run growth with the same tools engineers use, which lets one operator go from
