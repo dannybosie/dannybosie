@@ -45,9 +45,6 @@ Bilingual EN/VI site, run by an automated content pipeline and free seller tools
 **[Fee lookup tool](https://ordinex.cc/en/tools/tiktok-shop-fees)**<br>
 The same data as a live search for sellers.
 
-**[content-workflow](https://github.com/dannybosie/content-workflow)**<br>
-Content ops for Claude Code where facts, voice and banned claims are enforced by scripts.
-
 </td>
 </tr>
 </table>
@@ -67,8 +64,6 @@ A bootstrapped B2B SaaS for cross-border sellers in Southeast Asia. I run the go
 | Repo | What it is |
 |---|---|
 | [tiktok-shop-vn-commission-rates](https://github.com/dannybosie/tiktok-shop-vn-commission-rates) | **Marketplace Fee Intelligence.** TikTok Shop Vietnam commission schedules, effective-dated and diffed category by category. CC BY 4.0. |
-| [content-workflow](https://github.com/dannybosie/content-workflow) | **Content Ops Governance Engine.** Brief to export on plain files. Every fact has an id, every paragraph has an address, and voice rules fail the build. |
-
 ### How I work
 
 AI-native. I run growth with the same tools engineers use, which lets one operator go from
